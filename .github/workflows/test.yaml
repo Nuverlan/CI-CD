@@ -5,7 +5,7 @@ on:
 
 jobs:
     j:
-        runs_on: ubuntu-24.04
+        runs-on: ubuntu-24.04
         steps:
-            run: echo "Hello world"
+            - run: echo "Hello world"
 
